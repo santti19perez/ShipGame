@@ -2,9 +2,6 @@ import sys
 sys.path.append("src")
 from Logic.NavalWarfare import NavalWarfare, Player
 
-scores = open("scores.txt", "r+")
-contenido = scores.read()
-
 def imprimir_tablero(matrix):
     letras = "ABCDE"
     print("  " + " ".join(letras[:len(matrix[0])]))
