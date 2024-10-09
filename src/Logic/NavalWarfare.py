@@ -24,11 +24,10 @@ def convert_location(position: str) -> tuple:
 
 
 class NavalWarfare:
-    def __init__(self, player1: Player, player2: Player, score_file: str = "scores.txt"):
+    def __init__(self, player1: Player, player2: Player):
         self.Player1 = player1
         self.Player2 = player2
         self.currentplayer = self.Player1
-        self.score_file = score_file
         self.Victoria = False
       
     def posicionate_ship(self, location_ship: str):
@@ -57,10 +56,8 @@ class NavalWarfare:
         self.currentplayer.board_attack[x][y] = 2  # Marca como golpeado
         if self.currentplayer.name == self.Player1.name:
             self.Player2.ships_in_game -= 1
-            print(f"jugador 2 {self.Player2.ships_in_game}")
         else:
             self.Player1.ships_in_game -= 1
-            print(f"jugador 1 {self.Player1.ships_in_game}") 
         return True
 
     def verify_trys(self):
@@ -84,8 +81,6 @@ class NavalWarfare:
     def game_over(self):
         if self.Player1.ships_in_game == 0 or self.Player2.ships_in_game == 0:
                 return True
-        else:
-            return False
         
     def attack_board(self):
         self.Player1.board_attack = self.Player2.board
