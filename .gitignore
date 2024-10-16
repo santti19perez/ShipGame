@@ -1,2 +1,4 @@
 .idea
 .venv
+src/Logic/NavalWarfare2.py
+src/Logic/__pycache__/NavalWarfare2.cpython-311.pyc
