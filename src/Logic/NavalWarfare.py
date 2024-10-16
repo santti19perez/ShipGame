@@ -1,23 +1,16 @@
 def create_matrix():
     """Crea una matriz de 5x8 inicializada con ceros."""
-    try:
-        rows, cols = 5, 8
-        return [[0 for _ in range(rows)] for _ in range(cols)]
-    except Exception as e:
-        raise RuntimeError(f"Error al crear el tablero: {e}")
+    rows, cols = 5, 8
+    return [[0 for _ in range(rows)] for _ in range(cols)]
 
 class Player:
     def __init__(self, name: str):
-        """Inicializa los atributos del jugador."""
-        try:
-            self.name = name
-            self.total_ships = 3
-            self.ships_in_game = 0
-            self.remaining_shots = 1
-            self.board = create_matrix()
-            self.board_attack = None
-        except Exception as e:
-            raise RuntimeError(f"Error al inicializar el jugador: {e}")
+        self.name = name
+        self.total_ships = 3
+        self.ships_in_game = 0
+        self.remaining_shots = 1
+        self.board = create_matrix()
+        self.board_attack = None
 
 def convert_location(position: str) -> tuple:
     """Convierte una posición en el formato A1 a coordenadas de matriz."""
@@ -34,14 +27,10 @@ def convert_location(position: str) -> tuple:
 
 class NavalWarfare:
     def __init__(self, player1: Player, player2: Player):
-        """Inicializa el juego con dos jugadores y asigna el jugador actual."""
-        try:
-            self.player1 = player1
-            self.player2 = player2
-            self.current_player = self.player1
-            self.is_victory = False
-        except Exception as e:
-            raise RuntimeError(f"Error al inicializar el juego: {e}")
+        self.player1 = player1
+        self.player2 = player2
+        self.current_player = self.player1
+        self.is_victory = False
 
     def place_ship(self, ship_position: str):
         """Posiciona un barco en el tablero del jugador actual."""
