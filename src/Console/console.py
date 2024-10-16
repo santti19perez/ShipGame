@@ -1,6 +1,6 @@
 import sys
 sys.path.append("src")
-from Logic.NavalWarfare import NavalWarfare, Player
+from src.Logic.NavalWarfare import NavalWarfare, Player
 
 
 class InvalidPositionError(Exception):
