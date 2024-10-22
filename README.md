@@ -7,9 +7,7 @@ Python 3.6 o superior
 PostgreSQL (para gestionar la base de datos)
 
 ## Estructura del proyecto
-bash
-Copiar código
-naval_warfare_game/
+
 
 │
 ├── src/
@@ -52,4 +50,25 @@ Colocar barco: Posiciona un barco en el tablero de un jugador.
 Realizar disparo: Ataca una posición del tablero del oponente.
 Verificar fin del juego: Comprueba si el juego ha terminado.
 Obtener ganador: Devuelve el jugador que ganó la partida.
+
+## Ejecución
+Iniciar el juego:
+Ejecuta el archivo vista.py para comenzar el programa de consola:
+
+                                                               python src/vista.py
+El menú principal ofrece las siguientes opciones:
+
+Crear jugador
+Ver jugadores
+Actualizar jugador
+Eliminar jugador
+Iniciar juego
+Salir
+
+## Pruebas
+El proyecto incluye un conjunto de pruebas unitarias para verificar la funcionalidad del modelo de jugadores.
+
+Para ejecutar las pruebas, corre el siguiente comando:
+
+                                                        python -m unittest discover -s test
 
