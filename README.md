@@ -27,7 +27,7 @@ PostgreSQL (para gestionar la base de datos)
 ## Instalación de dependencias
 Instalar las librerías necesarias:
 
-                                                   pip install -r requirements.txt
+                               pip install -r requirements.txt
 
 
 ## Base de datos
@@ -55,7 +55,7 @@ Obtener ganador: Devuelve el jugador que ganó la partida.
 Iniciar el juego:
 Ejecuta el archivo vista.py para comenzar el programa de consola:
 
-                                                               python src/vista.py
+                                        python src/vista.py
 El menú principal ofrece las siguientes opciones:
 
 Crear jugador
@@ -70,5 +70,5 @@ El proyecto incluye un conjunto de pruebas unitarias para verificar la funcional
 
 Para ejecutar las pruebas, corre el siguiente comando:
 
-                                                        python -m unittest discover -s test
+                                     python -m unittest discover -s test
 
