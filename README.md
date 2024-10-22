@@ -1,4 +1,4 @@
-                                                                  NAVAL WARFARE GAME
+
 
 Este proyecto es un sistema de batallas navales multijugador con manejo de jugadores, tableros y lógica de juego. La aplicación permite crear jugadores, iniciar juegos entre ellos y realizar las acciones típicas del juego de batallas navales, como posicionar barcos y disparar a las posiciones del tablero enemigo.
 
@@ -24,4 +24,10 @@ naval_warfare_game/
 ├── test/
 │   └── test_jugador.py            # Pruebas unitarias para el modelo Jugador
 │
-└── README.md            
+└── README.md        
+
+Instalación de dependencias
+Instalar las librerías necesarias:
+
+                                                                 pip install -r requirements.txt
+
