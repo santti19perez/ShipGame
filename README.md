@@ -1,4 +1,4 @@
-NAVALE WARFARE GAME
+                                                                  NAVAL WARFARE GAME
 
 Este proyecto es un sistema de batallas navales multijugador con manejo de jugadores, tableros y lógica de juego. La aplicación permite crear jugadores, iniciar juegos entre ellos y realizar las acciones típicas del juego de batallas navales, como posicionar barcos y disparar a las posiciones del tablero enemigo.
 
@@ -10,6 +10,7 @@ Estructura del proyecto
 bash
 Copiar código
 naval_warfare_game/
+
 │
 ├── src/
 │   ├── controller/
