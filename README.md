@@ -75,5 +75,5 @@ Para ejecutar las pruebas, corre el siguiente comando:
 
 ## Autores
 
-°Santiago Perez Jimenez 
-°Yonathan Calimeño 
+-Santiago Perez Jimenez 
+-Yonathan Calimeño 
