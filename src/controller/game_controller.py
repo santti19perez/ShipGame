@@ -7,7 +7,7 @@ from model.naval_warfare import NavalWarfare, Player, convert_location
 from controller.db_connection import get_connection
 class GameController:
     def __init__(self):
-        pass # aqui creo que iba hacer algo pero se me olvido
+        pass # pen desarrollo
 
     def crear_jugador(self, nombre):
         jugador = Jugador(nombre=nombre)

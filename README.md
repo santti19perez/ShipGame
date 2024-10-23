@@ -38,7 +38,7 @@ juegos: Gestiona las partidas entre dos jugadores.
 tableros: Representa el estado de cada tablero de un jugador en un juego.
 
 ## Controlador del juego
-El archivo controlador.py maneja las interacciones principales con los jugadores y la lógica de juego.
+El archivo game_controller.py maneja las interacciones principales con los jugadores y la lógica de juego.
 
 Funciones principales:
 
@@ -70,5 +70,5 @@ El proyecto incluye un conjunto de pruebas unitarias para verificar la funcional
 
 Para ejecutar las pruebas, corre el siguiente comando:
 
-                                     python -test/ test_player.py
+                                     python test_player.py
 
