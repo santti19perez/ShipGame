@@ -2,7 +2,7 @@
 import sys
 sys.path.append("src")
 
-from db_connection import get_connection
+from controller.db_connection import get_connection
 
 class Jugador:
     def __init__(self, id=None, nombre=None):

@@ -2,7 +2,7 @@
 import sys
 sys.path.append("src")
 
-from db_connection import get_connection
+from controller.db_connection import get_connection
 from model.player_model import Jugador
 
 def create_matrix():

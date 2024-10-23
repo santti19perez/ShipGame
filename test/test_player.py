@@ -5,7 +5,7 @@ sys.path.append("src")
 
 import unittest
 from model.player_model import Jugador
-from db_connection import get_connection
+from controller.db_connection import get_connection
 
 class TestJugadorModelo(unittest.TestCase):
     def setUp(self):

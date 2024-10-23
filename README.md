@@ -12,15 +12,15 @@ PostgreSQL (para gestionar la base de datos)
 │
 ├── src/
 │   ├── controller/
-│   │   └── game_controller.py         # Controlador principal del juego
+│   │   └── game_controller.py , db_connection.py   # Controlador principal del juego, conexion bases
 │   ├── model/
 │   │   ├── player_model.py             # Modelo de Jugador
 │   │   └── naval_warfare.py       # Lógica principal del juego
-│   ├── db_connection.py           # Conexión con la base de datos
-│   └── config.py                  # Archivo de configuración de la base de datos
-│
+│   ├──
+│   └── 
 ├── test/
 │   └── test_player.py            # Pruebas unitarias para el modelo Jugador
+│--- config.py                  # Archivo de configuración de la base de datos
 │
 └── README.md        
 

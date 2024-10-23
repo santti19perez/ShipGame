@@ -4,7 +4,7 @@ sys.path.append("src")
 
 from model.player_model import Jugador 
 from model.naval_warfare import NavalWarfare, Player, convert_location
-from db_connection import get_connection
+from controller.db_connection import get_connection
 class GameController:
     def __init__(self):
         pass # aqui creo que iba hacer algo pero se me olvido
