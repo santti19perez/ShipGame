@@ -72,3 +72,8 @@ Para ejecutar las pruebas, corre el siguiente comando:
 
                                      python test_player.py
 
+
+## Autores
+
+°Santiago Perez Jimenez 
+°Yonathan Calimeño 
